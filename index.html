@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <script defer src="movies.js"></script>
+    <script defer src="script.js"></script>
+
+    <title>Filmfinder</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="title">
+        <h1>Winc Film inder</h1>
+      </header>
+
+      <nav>
+        <input type="radio" id="newMovies" name="movie" value="newMovies" />
+        <label for="newMovies">Laatste Films, 2014 of nieuwer</label>
+        <input type="radio" id="avenger" name="movie" value="avenger" />
+        <label for="avenger">Avenger Films</label>
+        <input type="radio" id="xmen" name="movie" value="xmen" />
+        <label for="xmen"> X-Men Films</label>
+        <input type="radio" id="princess" name="movie" value="princess" />
+        <label for="princess">Princess Films</label>
+        <input type="radio" id="batman" name="movie" value="batman" />
+        <label for="batman">Batman Films</label>
+      </nav>
+
+      <main>
+        <ul id="film-posters"></ul>
+      </main>
+      <footer></footer>
+    </div>
+  </body>
+</html>
